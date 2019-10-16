@@ -1,0 +1,30 @@
+[debug] [2019-10-11T04:31:44.387Z] ----------------------------------------------------------------------
+[debug] [2019-10-11T04:31:44.395Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:productlisting
+[debug] [2019-10-11T04:31:44.395Z] CLI Version:   6.3.1
+[debug] [2019-10-11T04:31:44.395Z] Platform:      win32
+[debug] [2019-10-11T04:31:44.395Z] Node Version:  v10.15.0
+[debug] [2019-10-11T04:31:44.398Z] Time:          Thu Oct 10 2019 23:31:44 GMT-0500 (Central Daylight Time)
+[debug] [2019-10-11T04:31:44.399Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-11T04:31:44.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-11T04:31:44.438Z] > authorizing via signed-in user
+[debug] [2019-10-11T04:31:44.439Z] [iam] checking project playbox99-749a3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-11T04:31:44.444Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/playbox99-749a3:testIamPermissions  
+
+[debug] [2019-10-11T04:31:44.922Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-11T04:31:44.928Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/playbox99-749a3  
+ 
+[debug] [2019-10-11T04:31:45.245Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'playbox99-749a3'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/playbox99-749a3/overview
+[debug] [2019-10-11T04:31:45.403Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\Rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:88:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
